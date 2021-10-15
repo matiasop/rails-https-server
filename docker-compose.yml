@@ -55,6 +55,7 @@ volumes:
       type: none
       device: /home/ubuntu/rails-https-server/public/
       o: bind
-  networks:
-    app-network:
-      driver: bridge
+
+networks:
+  app-network:
+    driver: bridge
